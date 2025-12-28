@@ -3,35 +3,44 @@ export function HomePage() {
     <>
 
       {/* Navbar pedorro */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-3">
-        <a className="navbar-brand fw-bold text-primary" href="#">
-           <img
-            src="./src/Assets//MediAgenda.png"
-            alt="MediAgenda Icon"
-            style={{ width: "32px", height: "32px" }}
-            className="me-2"
+      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div className="container-fluid px-3">
+          <a className="navbar-brand fw-bold text-primary d-flex align-items-center" href="#">
+            <img
+              src="./src/Assets//MediAgenda.png"
+              alt="MediAgenda Icon"
+              style={{ width: "32px", height: "32px" }}
+              className="me-2"
             />
-          MediAgenda
-        </a>
+            MediAgenda
+          </a>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item me-3">
-              <a className="btn btn-outline-primary" href="/login">Iniciar Sesión</a>
-            </li>
-            <li className="nav-item">
-              <a className="btn btn-primary" href="/register">Registrarse</a>
-            </li>
-          </ul>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item mb-2 mb-lg-0 me-lg-3">
+                <a className="btn btn-outline-primary w-100" href="/login">
+                  Iniciar Sesión
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="btn btn-primary w-100" href="/register">
+                  Registrarse
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
