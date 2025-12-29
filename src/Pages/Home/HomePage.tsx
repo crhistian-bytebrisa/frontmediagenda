@@ -1,48 +1,50 @@
+import logo from "../../Assets/MediAgenda.png";
+
 export function HomePage() {
   return (
     <>
 
       {/* Navbar pedorro */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-        <div className="container-fluid px-3">
-          <a className="navbar-brand fw-bold text-primary d-flex align-items-center" href="#">
-            <img
-              src="./src/Assets//MediAgenda.png"
-              alt="MediAgenda Icon"
-              style={{ width: "32px", height: "32px" }}
-              className="me-2"
-            />
-            MediAgenda
+<nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div className="container-fluid px-3">
+    <a className="navbar-brand fw-bold text-primary d-flex align-items-center" href="#">
+      <img
+        src="./src/Assets//MediAgenda.png"
+        alt="MediAgenda Icon"
+        style={{ width: "32px", height: "32px" }}
+        className="me-2"
+      />
+      MediAgenda
+    </a>
+
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+
+    <div className="collapse navbar-collapse mt-3 mt-lg-0" id="navbarNav">
+      <ul className="navbar-nav ms-auto text-center">
+        <li className="nav-item mb-2 mb-lg-0 me-lg-3">
+          <a className="btn btn-outline-primary w-100 w-lg-auto d-block" href="/login">
+            Iniciar Sesión
           </a>
-
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item mb-2 mb-lg-0 me-lg-3">
-                <a className="btn btn-outline-primary w-100" href="/login">
-                  Iniciar Sesión
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="btn btn-primary w-100" href="/register">
-                  Registrarse
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </li>
+        <li className="nav-item mb-2 mb-lg-0">
+          <a className="btn btn-primary w-100 w-lg-auto d-block" href="/register">
+            Registrarse
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
       {/* Este es el cuerpo del home*/}
       <section className="container my-5">

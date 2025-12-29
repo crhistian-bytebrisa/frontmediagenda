@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Navbar } from "../../Components/NavBar";
+import { Navbar } from "../../Components/Navbar";
 import { API } from "../../Services/APIService";
 import { useAuth } from "../../Context/AutContext";
 import { API_BASE_URL, AdaptResponse } from "../../Services/base";
