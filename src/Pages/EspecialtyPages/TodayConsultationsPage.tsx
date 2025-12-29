@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Navbar } from "../../Components/NavBar";
+import { Navbar } from "../../Components/Navbar";
 import { API } from "../../Services/APIService";
 
 export function TodayConsultationsPage() {

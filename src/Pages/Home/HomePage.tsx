@@ -5,9 +5,9 @@ export function HomePage() {
     <>
 
       {/* Navbar pedorro */}
-<nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+<nav className="Navbar Navbar-expand-lg Navbar-light bg-white shadow-sm">
   <div className="container-fluid px-3">
-    <a className="navbar-brand fw-bold text-primary d-flex align-items-center" href="#">
+    <a className="Navbar-brand fw-bold text-primary d-flex align-items-center" href="#">
       <img
         src="./src/Assets//MediAgenda.png"
         alt="MediAgenda Icon"
@@ -18,19 +18,19 @@ export function HomePage() {
     </a>
 
     <button
-      className="navbar-toggler"
+      className="Navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
+      data-bs-target="#NavbarNav"
+      aria-controls="NavbarNav"
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span className="navbar-toggler-icon"></span>
+      <span className="Navbar-toggler-icon"></span>
     </button>
 
-    <div className="collapse navbar-collapse mt-3 mt-lg-0" id="navbarNav">
-      <ul className="navbar-nav ms-auto text-center">
+    <div className="collapse Navbar-collapse mt-3 mt-lg-0" id="NavbarNav">
+      <ul className="Navbar-nav ms-auto text-center">
         <li className="nav-item mb-2 mb-lg-0 me-lg-3">
           <a className="btn btn-outline-primary w-100 w-lg-auto d-block" href="/login">
             Iniciar Sesión

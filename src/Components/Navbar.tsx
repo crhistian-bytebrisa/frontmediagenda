@@ -25,9 +25,9 @@ export function Navbar() {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-3">
+    <nav className="Navbar Navbar-expand-lg Navbar-light bg-white shadow-sm px-3">
       <a
-        className="navbar-brand d-flex align-items-center fw-bold text-primary"
+        className="Navbar-brand d-flex align-items-center fw-bold text-primary"
         href={home}
       >
         <img

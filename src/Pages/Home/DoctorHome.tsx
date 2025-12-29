@@ -1,6 +1,6 @@
 
 import { MenuCard } from "../../Components/Menucard";
-import { Navbar } from "../../Components/NavBar";
+import { Navbar } from "../../Components/Navbar";
 
 export function DoctorHome() {
   const menuItems = [
